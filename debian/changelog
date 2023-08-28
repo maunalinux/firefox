@@ -1,0 +1,8 @@
+firefox (116.0.3~mauna1) mauna; urgency=medium
+
+  * New upstream release for Mauna Linux
+  * Initial release
+  * 116.0.3
+
+ -- Mauna Linux <dev@maunalinux.top>  Sat, 19 Aug 2023 19:28:53 -0300
+

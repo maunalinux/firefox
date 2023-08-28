@@ -1,0 +1,639 @@
+Source: firefox
+Section: web
+Priority: optional
+Maintainer: Mauna Linux <dev@maunalinux.top>
+Build-Depends: debhelper (>= 11), wget, python3
+Standards-Version: 4.6.1
+
+Package: firefox
+Architecture: any
+Depends: libdbus-glib-1-2 (>= 0.110-5)
+Replaces: firefox (<< 96.0.2), firefox-l10n-pt-br, firefox-l10n-pt-pt, firefox-l10n-en-gb, firefox-l10n-es-es, firefox-l10n-es-mx, firefox-l10n-es-ar, firefox-l10n-fr
+Conflicts: firefox (<< 96.0.2), firefox-l10n-pt-br, firefox-l10n-pt-pt, firefox-l10n-en-gb, firefox-l10n-es-es, firefox-l10n-es-mx, firefox-l10n-es-ar, firefox-l10n-fr
+Breaks: firefox (<< 96.0.2), firefox-l10n-pt-br, firefox-l10n-pt-pt, firefox-l10n-en-gb, firefox-l10n-es-es, firefox-l10n-es-mx, firefox-l10n-es-ar, firefox-l10n-fr
+Provides: gnome-www-browser, www-browser
+Description: Safe and easy web browser from Mozilla
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+
+Package: firefox-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Description: Safe and easy web browser from Mozilla - debug symbols
+ .
+ This is a transitional package. It can be safely removed.
+
+Package: firefox-dev
+Architecture: any
+Section: oldlibs
+Priority: extra
+Description: Safe and easy web browser from Mozilla - development files
+ .
+ This is a transitional package. It can be safely removed.
+
+Package: firefox-mozsymbols
+Architecture: amd64 i386
+Section: debug
+Priority: extra
+Description: Safe and easy web browser from Mozilla - Breakpad symbols
+ .
+ This is a transitional package. It can be safely removed.
+
+Package: firefox-geckodriver
+Architecture: any
+Description: Safe and easy web browser from Mozilla - geckodriver
+ .
+ This is a transitional package. It can be safely removed.
+
+Package: firefox-l10n-af
+Architecture: any
+Depends: ${misc:Depends}
+Description: Afrikaans language packs for Firefox
+ Afrikaans language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-an
+Architecture: any
+Depends: ${misc:Depends}
+Description: Aragonese language packs for Firefox
+ Aragonese language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ar
+Architecture: any
+Depends: ${misc:Depends}
+Description: Arabic language packs for Firefox
+ Arabic language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-as
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-ast
+Architecture: any
+Depends: ${misc:Depends}
+Description: Asturian language packs for Firefox
+ Asturian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-az
+Architecture: any
+Depends: ${misc:Depends}
+Description: Azerbaijani language packs for Firefox
+ Azerbaijani language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-be
+Architecture: any
+Depends: ${misc:Depends}
+Description: Belarusian language packs for Firefox
+ Belarusian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-bg
+Architecture: any
+Depends: ${misc:Depends}
+Description: Bulgarian language packs for Firefox
+ Bulgarian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-bn
+Architecture: any
+Depends: ${misc:Depends}
+Description: Bengali language packs for Firefox
+ Bengali language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-br
+Architecture: any
+Depends: ${misc:Depends}
+Description: Breton language packs for Firefox
+ Breton language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-bs
+Architecture: any
+Depends: ${misc:Depends}
+Description: Bosnian language packs for Firefox
+ Bosnian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ca
+Architecture: any
+Depends: ${misc:Depends}
+Description: Catalan; Valencian language packs for Firefox
+ Catalan; Valencian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-cak
+Architecture: any
+Depends: ${misc:Depends}
+Description: Kaqchikel language packs for Firefox
+ Kaqchikel language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-cs
+Architecture: any
+Depends: ${misc:Depends}
+Description: Czech language packs for Firefox
+ Czech language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-csb
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-cy
+Architecture: any
+Depends: ${misc:Depends}
+Description: Welsh language packs for Firefox
+ Welsh language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-da
+Architecture: any
+Depends: ${misc:Depends}
+Description: Danish language packs for Firefox
+ Danish language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-de
+Architecture: any
+Depends: ${misc:Depends}
+Description: German language packs for Firefox
+ German language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-el
+Architecture: any
+Depends: ${misc:Depends}
+Description: Greek language packs for Firefox
+ Greek language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-en
+Architecture: any
+Depends: ${misc:Depends}
+Description: English language packs for Firefox
+ English language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-eo
+Architecture: any
+Depends: ${misc:Depends}
+Description: Esperanto language packs for Firefox
+ Esperanto language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-es
+Architecture: any
+Depends: ${misc:Depends}
+Description: Spanish; Castilian language packs for Firefox
+ Spanish; Castilian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-et
+Architecture: any
+Depends: ${misc:Depends}
+Description: Estonian language packs for Firefox
+ Estonian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-eu
+Architecture: any
+Depends: ${misc:Depends}
+Description: Basque language packs for Firefox
+ Basque language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-fa
+Architecture: any
+Depends: ${misc:Depends}
+Description: Persian language packs for Firefox
+ Persian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-fi
+Architecture: any
+Depends: ${misc:Depends}
+Description: Finnish language packs for Firefox
+ Finnish language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-fr
+Architecture: any
+Depends: ${misc:Depends}
+Description: French language packs for Firefox
+ French language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-fy
+Architecture: any
+Depends: ${misc:Depends}
+Description: Western Frisian language packs for Firefox
+ Western Frisian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ga
+Architecture: any
+Depends: ${misc:Depends}
+Description: Irish language packs for Firefox
+ Irish language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-gd
+Architecture: any
+Depends: ${misc:Depends}
+Description: Gaelic; Scottish Gaelic language packs for Firefox
+ Gaelic; Scottish Gaelic language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-gl
+Architecture: any
+Depends: ${misc:Depends}
+Description: Galician language packs for Firefox
+ Galician language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-gn
+Architecture: any
+Depends: ${misc:Depends}
+Description: Guarani language packs for Firefox
+ Guarani language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-gu
+Architecture: any
+Depends: ${misc:Depends}
+Description: Gujarati language packs for Firefox
+ Gujarati language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-he
+Architecture: any
+Depends: ${misc:Depends}
+Description: Hebrew language packs for Firefox
+ Hebrew language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-hi
+Architecture: any
+Depends: ${misc:Depends}
+Description: Hindi language packs for Firefox
+ Hindi language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-hr
+Architecture: any
+Depends: ${misc:Depends}
+Description: Croatian language packs for Firefox
+ Croatian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-hsb
+Architecture: any
+Depends: ${misc:Depends}
+Description: Sorbian, Upper language packs for Firefox
+ Sorbian, Upper language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-hu
+Architecture: any
+Depends: ${misc:Depends}
+Description: Hungarian language packs for Firefox
+ Hungarian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-hy
+Architecture: any
+Depends: ${misc:Depends}
+Description: Armenian language packs for Firefox
+ Armenian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ia
+Architecture: any
+Depends: ${misc:Depends}
+Description: Interlingua language packs for Firefox
+ Interlingua language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-id
+Architecture: any
+Depends: ${misc:Depends}
+Description: Indonesian language packs for Firefox
+ Indonesian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-is
+Architecture: any
+Depends: ${misc:Depends}
+Description: Icelandic language packs for Firefox
+ Icelandic language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-it
+Architecture: any
+Depends: ${misc:Depends}
+Description: Italian language packs for Firefox
+ Italian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ja
+Architecture: any
+Depends: ${misc:Depends}
+Description: Japanese language packs for Firefox
+ Japanese language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ka
+Architecture: any
+Depends: ${misc:Depends}
+Description: Georgian language packs for Firefox
+ Georgian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-kab
+Architecture: any
+Depends: ${misc:Depends}
+Description: Kabyle language packs for Firefox
+ Kabyle language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-kk
+Architecture: any
+Depends: ${misc:Depends}
+Description: Kazakh language packs for Firefox
+ Kazakh language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-km
+Architecture: any
+Depends: ${misc:Depends}
+Description: Central Khmer language packs for Firefox
+ Central Khmer language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-kn
+Architecture: any
+Depends: ${misc:Depends}
+Description: Kannada language packs for Firefox
+ Kannada language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ko
+Architecture: any
+Depends: ${misc:Depends}
+Description: Korean language packs for Firefox
+ Korean language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ku
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-lg
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-lt
+Architecture: any
+Depends: ${misc:Depends}
+Description: Lithuanian language packs for Firefox
+ Lithuanian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-lv
+Architecture: any
+Depends: ${misc:Depends}
+Description: Latvian language packs for Firefox
+ Latvian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-mai
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-mk
+Architecture: any
+Depends: ${misc:Depends}
+Description: Macedonian language packs for Firefox
+ Macedonian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ml
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-mn
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-mr
+Architecture: any
+Depends: ${misc:Depends}
+Description: Marathi language packs for Firefox
+ Marathi language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ms
+Architecture: any
+Depends: ${misc:Depends}
+Description: Malay language packs for Firefox
+ Malay language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-my
+Architecture: any
+Depends: ${misc:Depends}
+Description: Myanmar language packs for Firefox
+ Myanmar language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-nb
+Architecture: any
+Depends: ${misc:Depends}
+Description: Bokmål, Norwegian; Norwegian Bokmål language packs for Firefox
+ Bokmål, Norwegian; Norwegian Bokmål language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ne
+Architecture: any
+Depends: ${misc:Depends}
+Description: Nepali language packs for Firefox
+ Nepali language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-nl
+Architecture: any
+Depends: ${misc:Depends}
+Description: Dutch; Flemish language packs for Firefox
+ Dutch; Flemish language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-nn
+Architecture: any
+Depends: ${misc:Depends}
+Description: Norwegian Nynorsk; Nynorsk, Norwegian language packs for Firefox
+ Norwegian Nynorsk; Nynorsk, Norwegian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-nso
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-oc
+Architecture: any
+Depends: ${misc:Depends}
+Description: Occitan (post 1500) language packs for Firefox
+ Occitan (post 1500) language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-or
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-pa
+Architecture: any
+Depends: ${misc:Depends}
+Description: Panjabi; Punjabi language packs for Firefox
+ Panjabi; Punjabi language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-pl
+Architecture: any
+Depends: ${misc:Depends}
+Description: Polish language packs for Firefox
+ Polish language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-pt
+Architecture: any
+Depends: ${misc:Depends}
+Description: Portuguese language packs for Firefox
+ Portuguese language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ro
+Architecture: any
+Depends: ${misc:Depends}
+Description: Romanian language packs for Firefox
+ Romanian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ru
+Architecture: any
+Depends: ${misc:Depends}
+Description: Russian language packs for Firefox
+ Russian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-si
+Architecture: any
+Depends: ${misc:Depends}
+Description: Sinhala; Sinhalese language packs for Firefox
+ Sinhala; Sinhalese language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-sk
+Architecture: any
+Depends: ${misc:Depends}
+Description: Slovak language packs for Firefox
+ Slovak language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-sl
+Architecture: any
+Depends: ${misc:Depends}
+Description: Slovenian language packs for Firefox
+ Slovenian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-sq
+Architecture: any
+Depends: ${misc:Depends}
+Description: Albanian language packs for Firefox
+ Albanian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-sr
+Architecture: any
+Depends: ${misc:Depends}
+Description: Serbian language packs for Firefox
+ Serbian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-sv
+Architecture: any
+Depends: ${misc:Depends}
+Description: Swedish language packs for Firefox
+ Swedish language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-sw
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-l10n-szl
+Architecture: any
+Depends: ${misc:Depends}
+Description: Silesian language packs for Firefox
+ Silesian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ta
+Architecture: any
+Depends: ${misc:Depends}
+Description: Tamil language packs for Firefox
+ Tamil language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-te
+Architecture: any
+Depends: ${misc:Depends}
+Description: Telugu language packs for Firefox
+ Telugu language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-th
+Architecture: any
+Depends: ${misc:Depends}
+Description: Thai language packs for Firefox
+ Thai language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-tr
+Architecture: any
+Depends: ${misc:Depends}
+Description: Turkish language packs for Firefox
+ Turkish language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-uk
+Architecture: any
+Depends: ${misc:Depends}
+Description: Ukrainian language packs for Firefox
+ Ukrainian language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-ur
+Architecture: any
+Depends: ${misc:Depends}
+Description: Urdu language packs for Firefox
+ Urdu language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-uz
+Architecture: any
+Depends: ${misc:Depends}
+Description: Uzbek language packs for Firefox
+ Uzbek language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-vi
+Architecture: any
+Depends: ${misc:Depends}
+Description: Vietnamese language packs for Firefox
+ Vietnamese language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-xh
+Architecture: any
+Depends: ${misc:Depends}
+Description: Xhosa language packs for Firefox
+ Xhosa language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-zh-hans
+Architecture: any
+Depends: ${misc:Depends}
+Description: Simplified Chinese language packs for Firefox
+ Simplified Chinese language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-zh-hant
+Architecture: any
+Depends: ${misc:Depends}
+Description: Traditional Chinese language packs for Firefox
+ Traditional Chinese language packs for the Mozilla Firefox Web Browser.
+
+Package: firefox-l10n-zu
+Architecture: any
+Depends: ${misc:Depends}
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.

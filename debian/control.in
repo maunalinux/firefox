@@ -1,0 +1,48 @@
+Source: firefox
+Section: web
+Priority: optional
+Maintainer: Mauna Linux <dev@maunalinux.top>
+Build-Depends: debhelper (>= 11), wget, python3
+Standards-Version: 4.6.1
+
+Package: firefox
+Architecture: any
+Depends: libdbus-glib-1-2 (>= 0.110-5)
+Replaces: firefox (<< 96.0.2), firefox-l10n-pt-br, firefox-l10n-pt-pt, firefox-l10n-en-gb, firefox-l10n-es-es, firefox-l10n-es-mx, firefox-l10n-es-ar, firefox-l10n-fr
+Conflicts: firefox (<< 96.0.2), firefox-l10n-pt-br, firefox-l10n-pt-pt, firefox-l10n-en-gb, firefox-l10n-es-es, firefox-l10n-es-mx, firefox-l10n-es-ar, firefox-l10n-fr
+Breaks: firefox (<< 96.0.2), firefox-l10n-pt-br, firefox-l10n-pt-pt, firefox-l10n-en-gb, firefox-l10n-es-es, firefox-l10n-es-mx, firefox-l10n-es-ar, firefox-l10n-fr
+Provides: gnome-www-browser, www-browser
+Description: Safe and easy web browser from Mozilla
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+
+Package: firefox-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Description: Safe and easy web browser from Mozilla - debug symbols
+ .
+ This is a transitional package. It can be safely removed.
+
+Package: firefox-dev
+Architecture: any
+Section: oldlibs
+Priority: extra
+Description: Safe and easy web browser from Mozilla - development files
+ .
+ This is a transitional package. It can be safely removed.
+
+Package: firefox-mozsymbols
+Architecture: amd64 i386
+Section: debug
+Priority: extra
+Description: Safe and easy web browser from Mozilla - Breakpad symbols
+ .
+ This is a transitional package. It can be safely removed.
+
+Package: firefox-geckodriver
+Architecture: any
+Description: Safe and easy web browser from Mozilla - geckodriver
+ .
+ This is a transitional package. It can be safely removed.

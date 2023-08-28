@@ -1,0 +1,11 @@
+debian/.debhelper/
+debian/firefox
+debian/firefox-dbg
+debian/firefox-dev
+debian/firefox-geckodriver
+debian/firefox-l10n-*
+debian/firefox-mozsymbols
+debian/*.log
+debian/*.substvars
+debian/debhelper*
+debian/files
