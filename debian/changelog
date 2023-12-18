@@ -1,3 +1,10 @@
+firefox (121.0~mauna1) mauna; urgency=medium
+
+  * New upstream release
+  * 121.0
+
+ -- Mauna Linux <dev@maunalinux.top>  Mon, 18 Dec 2023 19:49:38 -0300
+
 firefox (120.0.1~mauna1) mauna; urgency=medium
 
   * New upstream version
