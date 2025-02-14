@@ -22,9 +22,8 @@ if archi == "amd64":
     archi="linux-x86_64"
 else:
     archi="linux-i686"
-
-US_URL = "http://download-origin.cdn.mozilla.net/pub/firefox/releases/%s/%s/pt-BR/firefox-%s.tar.bz2" % (release, archi, release)
-XPI_URL = "http://download-origin.cdn.mozilla.net/pub/firefox/releases/%s/%s/xpi" % (release, archi)
+US_URL = "https://ftp.mozilla.org/pub/firefox/releases/%s/%s/en-US/firefox-%s.tar.xz" % (release, archi, release)
+XPI_URL = "https://ftp.mozilla.org/pub/firefox/releases/%s/%s/xpi" % (release, archi)
 
 os.system("rm -rf %s/debian/firefox" % curdir)
 os.system("rm -rf %s/debian/firefox-*" % curdir)
@@ -33,13 +32,12 @@ os.chdir("%s/debian/firefox/opt" % curdir)
 if not abort:
 
     os.system("wget %s" % US_URL)
-    if (not os.path.exists("firefox-%s.tar.bz2" % release)):
+    if (not os.path.exists("firefox-%s.tar.xz" % release)):
         print("FAILED: Could not download %s" % (US_URL))
         sys.exit(1)
 
-    os.system("bzip2 -d firefox-%s.tar.bz2" % release)
-    os.system("tar xvf firefox-%s.tar" % release)
-    os.system("rm firefox-%s.tar" % release)
+    os.system("tar xf firefox-%s.tar.xz" % release)
+    os.system("rm firefox-%s.tar.xz" % release)
 
     os.system("mkdir -p %s/debian/firefox/opt/firefox/distribution" % curdir)
     os.system("cp %s/pref/policies.json %s/debian/firefox/opt/firefox/distribution" % (curdir, curdir))
