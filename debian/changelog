@@ -1,3 +1,31 @@
+firefox (158.0~mauna1) polaris; urgency=medium
+
+  * New upstream release
+  * 158.0
+
+ -- Mauna Linux <dev@maunalinux.top>  Sat, 17 Oct 2026 16:30:14 -0300
+
+firefox (157.0~mauna1) polaris; urgency=medium
+
+  * New upstream release
+  * 157.0
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 01 Oct 2026 10:58:53 -0300
+
+firefox (155.0.1~mauna1) polaris; urgency=medium
+
+  * New upstream release
+  * 155.0.1
+
+ -- Mauna Linux <dev@maunalinux.top>  Mon, 07 Sep 2026 18:29:17 -0300
+
+firefox (154.0.1~mauna1) polaris; urgency=medium
+
+  * New upstream release
+  * 154.0.1
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 26 Aug 2026 14:27:02 -0300
+
 firefox (154.0~mauna1) polaris; urgency=medium
 
   * New upstream release
